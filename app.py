@@ -180,6 +180,10 @@ filename = open('model.pkl', 'rb')
 model = pickle.load(filename)
 
 
+filename = open('tfidf.pkl', 'rb')
+model = pickle.load(filename)
+
+
 # Create routes to post the prediction
 @app.route('/', methods=['POST'])
 def predict():
