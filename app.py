@@ -181,7 +181,7 @@ model = pickle.load(filename)
 
 
 filename = open('tfidf.pkl', 'rb')
-model = pickle.load(filename)
+tfidf = pickle.load(filename)
 
 
 # Create routes to post the prediction
